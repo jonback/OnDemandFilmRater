@@ -1,0 +1,14 @@
+<h2><%= @movie.name %> (<%= @movie.rating %>%)</h2>
+
+<p><a href="<%= @movie.rt_url %>">Full details</a></p>
+
+<p><img src="<%= @movie.poster_url %>" alt="<%= @movie.name %>" /></p>
+
+<p>Critics Score: <%= @movie.critic %></p>
+  
+<p><%= @movie.summary %></p>
+
+<p><%= @movie.year %></p>
+
+<p><%= @movie.runtime %> mins</p>
+
